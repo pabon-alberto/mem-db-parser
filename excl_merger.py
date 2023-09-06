@@ -3,7 +3,7 @@
 import glob
 import pandas as pd
 
-path = "data/" # Place downloaded excel files here
+path = "data/" # Place downloaded excel files here (make data folder if not done already)
 
 file_list = glob.glob(path + "/*.xlsx") # Recognize each .xlsx file as an excel file.
 
